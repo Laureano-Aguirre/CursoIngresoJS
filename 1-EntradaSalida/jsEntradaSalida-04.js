@@ -12,8 +12,7 @@ function mostrar()
 	nombre = prompt("Ingrese su nombre");
 	//tomo el nombre puesto en la caja del prompt para colocarlo en la caja de texto embebida en el html
 	document.getElementById('txtIdNombre').value=nombre;
+
 	
-
-
+	
 }
-
