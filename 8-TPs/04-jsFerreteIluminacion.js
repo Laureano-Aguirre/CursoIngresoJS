@@ -10,5 +10,27 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
- 	
+     
+    //declaramos las variables
+    
+    
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+/*el If es un condicional.
+La condicion puede ser verdadera o falsa. Si es VERDADERA, entramos al bloque if, y se va a ejecutar lo que hay entre las llaves de cierre
+Una vez que se ejecuto lo que hay entre llaves de cierre del if, sigue ejecutandose el codigo linea a linea secuencialmente
+Si la condicion es FALSA, no se va a ejecutar al bloque delimitado por el if, y va a saltearse el mismo, y se sigue ejecutando secuencialmente el codigo
+*/

@@ -1,0 +1,16 @@
+
+OPERADORES ARITMETICOS
+Los operadores aritmeticos pueden ser el "+, -, *, /, %"
+
+El operador esta en el medio, y tanto a izquierda y a derecha, a los OPERANDOS.
+Los OPERANDOS son de tipo numerico, y el resultado de la operacion aritmetica es un numero
+
+
+OPERADORES RELACIONALES
+Los operadores relacionales RELACIONAN un OPERANDO con otro OPERANDO.
+Pueden ser "==, != (distinto), <, >, >= (mayor o igual), <= (menor o igual)"
+
+Estos operadores, se los llaman operadores BINARIOS.
+En una operacion con operadores relacionales, los operando pueden ser de cualquier tipo, mientras que su resultado ser BAOLEAN.
+Es decir, la pregunta es VERDADERA o FALSA.
+
