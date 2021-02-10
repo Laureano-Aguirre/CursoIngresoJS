@@ -3,3 +3,8 @@ La condicion puede ser verdadera o falsa. Si es VERDADERA, entramos al bloque if
 Una vez que se ejecuto lo que hay entre llaves de cierre del if, sigue ejecutandose el codigo linea a linea secuencialmente
 Si la condicion es FALSA, no se va a ejecutar al bloque delimitado por el if, y va a saltearse el mismo, y se sigue ejecutando secuencialmente el codigo
 */
+ELSE
+Se utiliza para ejecutar una funcion cuando una condicion (if) no se ejecuta
+
+o
+El O, se escribe mediante la doble barra ||, y significa o.

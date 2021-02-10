@@ -11,6 +11,9 @@ Los operadores relacionales RELACIONAN un OPERANDO con otro OPERANDO.
 Pueden ser "==, != (distinto), <, >, >= (mayor o igual), <= (menor o igual)"
 
 Estos operadores, se los llaman operadores BINARIOS.
-En una operacion con operadores relacionales, los operando pueden ser de cualquier tipo, mientras que su resultado ser BAOLEAN.
+En una operacion con operadores relacionales, los operando pueden ser de cualquier tipo, mientras que su resultado ser BOOLEANO.
 Es decir, la pregunta es VERDADERA o FALSA.
 
+OPERADORES LOGICOS
+Son los operadores para relacionar a los dos operandos que irian dentro del if
+Pueden ser "and (&&), not (!), pipe (||) (A o B),
