@@ -8,3 +8,105 @@ Se utiliza para ejecutar una funcion cuando una condicion (if) no se ejecuta
 
 o
 El O, se escribe mediante la doble barra ||, y significa o.
+
+FERRETE DE ILUMINACION IF 
+function CalcularPrecio () 
+{    
+    //declaramos las variables
+    let cantLamparas;
+    const PRECIO_X_LAMPARA = 35;
+    let descuento;
+    let precio;
+    let marca;
+    let precioFinal;
+    let ingresosBrutos;
+
+
+    //definimos las variables
+    cantLamparas=document.getElementById('txtIdCantidad').value;
+    marca=document.getElementById('Marca').value;
+    ingresosBrutos=10;
+
+    //pasamos de texto a numero
+    cantLamparas=parseInt(cantLamparas);
+
+    //definimos la variable precio sin descuento
+    precioFinal=(cantLamparas*PRECIO_X_LAMPARA);
+
+    //declaramos el if
+    if (cantLamparas>5) 
+    {
+        descuento=50;
+        
+    }
+    else 
+    { 
+        if (cantLamparas==5) 
+        {
+            if (marca=="ArgentinaLuz") 
+            {
+                descuento=40;
+            }
+            else 
+            {
+                descuento=30;
+            }
+        }
+
+        if (cantLamparas==4)
+        {
+            if (marca=="ArgentinaLuz" || marca=="FelipeLamparas")
+            {
+                descuento=25;
+            }
+            else 
+            {
+                descuento=20;
+            }
+        }
+        if (cantLamparas==3)
+        {
+            if (marca=="ArgentinaLuz") 
+            {
+                descuento=15;
+            }
+            else
+            {
+                if (marca=="FelpieLamparas")
+                {
+                 descuento=10;
+                }
+                else 
+                {
+                descuento=5;
+                }
+            }      
+        } 
+    }
+       
+    precioFinal=(precioFinal-(precioFinal*descuento/100));
+
+    if (precioFinal>120) 
+    {
+        ingresosBrutos=precioFinal*ingresosBrutos/100;
+        alert("Usted pago "+ingresosBrutos+" de IIBB.");
+        precioFinal=(precioFinal+ingresosBrutos);
+    }
+
+    document.getElementById('txtIdprecioDescuento').value=precioFinal;
+
+
+}
+
+
+
+
+/*el If es un condicional.
+La condicion puede ser verdadera o falsa. Si es VERDADERA, entramos al bloque if, y se va a ejecutar lo que hay entre las llaves de cierre
+Una vez que se ejecuto lo que hay entre llaves de cierre del if, sigue ejecutandose el codigo linea a linea secuencialmente
+Si la condicion es FALSA, no se va a ejecutar al bloque delimitado por el if, y va a saltearse el mismo, y se sigue ejecutando secuencialmente el codigo
+*/
+
+//usar el if solamente para poner los diferentes descuentos
+//poner la ecuacion al final y me arreglo con los ifs solos
+//cambiar la variable precio inicial por precio sin descuento

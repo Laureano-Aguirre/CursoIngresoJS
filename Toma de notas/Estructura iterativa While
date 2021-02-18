@@ -1,0 +1,7 @@
+Se asemeja a la condicion if
+Tiene una condicion que si se cumple,se entra al bloque de codigo
+La diferencia con el if es que el while es repetitivo
+Una vez que se termina de ejecutar el bloque de codigo, no sale del mismo, sino vuelve a empezar
+Solo se vuelve a repetir, si la condicion vuelve a cumplirse
+Se lee como "mientras se cumpla la condicion, ejecuto este bloque de codigo"
+La variable dentro de la condicion es VARIABLE DE CONTROL
